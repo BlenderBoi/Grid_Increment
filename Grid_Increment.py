@@ -46,7 +46,7 @@ def register():
     
     bpy.utils.register_class(GRID_OT_Grid_Increment)
     
-    bpy.types.VIEW3D_HT_header.append(grid_increment_button)
+    bpy.types.VIEW3D_HT_header.prepend(grid_increment_button)
 
 def unregister():
     
