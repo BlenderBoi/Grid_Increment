@@ -2,7 +2,7 @@
 bl_info = {
     "name": "Grid Increment",
     "author": "BlenderBoi",
-    "version": (1, 0),
+    "version": (1, 1),
     "blender": (2, 80, 0),
     "description": "Increment Button for Grid Scale",
     "warning": "",
